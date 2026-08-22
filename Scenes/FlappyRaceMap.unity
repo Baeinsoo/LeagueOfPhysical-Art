@@ -295,7 +295,6 @@ GameObject:
   - component: {fileID: 34863263}
   - component: {fileID: 34863262}
   - component: {fileID: 34863261}
-  - component: {fileID: 34863260}
   m_Layer: 0
   m_Name: ArmN_marker
   m_TagString: Untagged
@@ -318,18 +317,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 514874378}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &34863260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34863258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &34863261
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -394,7 +381,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -417,7 +404,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 36246073}
-  - component: {fileID: 36246074}
   m_Layer: 0
   m_Name: FillWindmill
   m_TagString: Untagged
@@ -444,19 +430,6 @@ Transform:
   - {fileID: 1444935681}
   m_Father: {fileID: 545714256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &36246074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 36246072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 563440209d2ed4bcdae31ee0b35057d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyWindmill
-  rotSpeed: -95
 --- !u!1 &43062456
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,7 +532,6 @@ GameObject:
   - component: {fileID: 43593757}
   - component: {fileID: 43593756}
   - component: {fileID: 43593755}
-  - component: {fileID: 43593754}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -582,18 +554,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &43593754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 43593752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &43593755
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -658,7 +618,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -681,7 +641,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 45415052}
-  - component: {fileID: 45415053}
   m_Layer: 0
   m_Name: Iris
   m_TagString: Untagged
@@ -706,24 +665,6 @@ Transform:
   - {fileID: 473582292}
   m_Father: {fileID: 1921465035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &45415053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 45415051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0fb7eaeb5dc6452ebd97a0ea68230f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyIris
-  topPipe: {fileID: 1603614419}
-  bottomPipe: {fileID: 473582292}
-  baseGap: 8
-  amp: 2.5
-  speed: 1.1
-  phase: 0
 --- !u!1 &47222743
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,7 +677,6 @@ GameObject:
   - component: {fileID: 47222748}
   - component: {fileID: 47222747}
   - component: {fileID: 47222746}
-  - component: {fileID: 47222745}
   m_Layer: 0
   m_Name: FunnelTop
   m_TagString: Untagged
@@ -759,18 +699,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1921465035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &47222745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47222743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &47222746
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -835,7 +763,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -858,7 +786,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 47893191}
-  - component: {fileID: 47893192}
   m_Layer: 0
   m_Name: FillWindmill
   m_TagString: Untagged
@@ -885,209 +812,6 @@ Transform:
   - {fileID: 1592849010}
   m_Father: {fileID: 545714256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &47893192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47893190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 563440209d2ed4bcdae31ee0b35057d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyWindmill
-  rotSpeed: -70
---- !u!114 &48544155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557638672516163121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a99251ddb31d34b21a0afa87474d69f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyPlayer
-  forwardSpeed: 11
-  flapImpulse: 23
-  gravity: 70
-  maxFall: 30
-  dashMult: 2
-  dashDur: 0.2
-  dcBase: 0.13
-  dcDive: 1.2
-  ceilingY: 20
-  groundY: -80
-  ghostTime: 0.7
-  invulnTime: 0.5
-  elevationFloor: 0
-  elevAmp: -32
-  elevWavelength: 336
-  elevStartX: 6
-  floorDrop: 9
-  ceilRise: 9
-  elevSharp: 0
-  faceY: 0
-  tiltUp: 28
-  tiltDown: 70
-  tiltPerVy: 3.5
-  tiltLerp: 12
-  showDebugGui: 0
---- !u!135 &48544156
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557638672516163121}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.4477941
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &48544157
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557638672516163121}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!1 &54246904
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 54246905}
-  - component: {fileID: 54246906}
-  - component: {fileID: 54246907}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &54246905
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54246904}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14, y: 2, z: -30}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1439554652}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!20 &54246906
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54246904}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_Iso: 200
-  m_ShutterSpeed: 0.005
-  m_Aperture: 16
-  m_FocusDistance: 10
-  m_FocalLength: 50
-  m_BladeCount: 5
-  m_Curvature: {x: 2, y: 11}
-  m_BarrelClipping: 0.25
-  m_Anamorphism: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 200
-  field of view: 52
-  orthographic: 1
-  orthographic size: 16
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!114 &54246907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54246904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f79e2b9db820f4ff7b29e638ffd80db5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyCameraFollow
-  target: {fileID: 2221973027439836299}
-  offsetX: 14
-  fixedY: 2
-  fixedZ: -30
-  lerp: 100
-  followLeader: 1
-  leaderOffsetX: -14
-  followY: 1
-  yLerp: 2
 --- !u!1 &58806351
 GameObject:
   m_ObjectHideFlags: 0
@@ -1190,7 +914,6 @@ GameObject:
   - component: {fileID: 66333610}
   - component: {fileID: 66333609}
   - component: {fileID: 66333608}
-  - component: {fileID: 66333607}
   m_Layer: 0
   m_Name: ArmS
   m_TagString: Untagged
@@ -1213,18 +936,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1337730945}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &66333607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 66333605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &66333608
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1289,7 +1000,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1303,187 +1014,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 66333605}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &74984892
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 74984898}
-  - component: {fileID: 74984897}
-  - component: {fileID: 74984896}
-  - component: {fileID: 74984894}
-  - component: {fileID: 74984893}
-  - component: {fileID: 74984899}
-  m_Layer: 0
-  m_Name: Pacer_Cyan
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &74984893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 74984892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f45dca57f6734575b690c66fa7da332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyPacer
-  forwardSpeed: 11
-  flapImpulse: 23
-  gravity: 70
-  maxFall: 30
-  faceY: 0
-  endX: 636
-  skill: 1.05
-  lookAhead: 3
-  scanLo: -74
-  scanHi: 28
-  ghostTime: 0.7
-  invulnTime: 0.5
-  startBoostMult: 2
---- !u!212 &74984894
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 74984892}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 20
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 54b7b6eb50ed843fe957b5dfdbd8e079, type: 3}
-  m_Color: {r: 0.35, g: 0.85, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.5058824, y: 1.5058824}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!135 &74984896
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 74984892}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.4477941
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &74984897
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 74984892}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!4 &74984898
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 74984892}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: -0.6, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &74984899
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 74984892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8c3a53bca0146b4bd18d9ad95d1f87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyBird
-  Vy: 0
 --- !u!1001 &85161177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1562,7 +1092,6 @@ GameObject:
   - component: {fileID: 85771667}
   - component: {fileID: 85771666}
   - component: {fileID: 85771665}
-  - component: {fileID: 85771664}
   m_Layer: 0
   m_Name: ArmW
   m_TagString: Untagged
@@ -1585,18 +1114,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 36246073}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &85771664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 85771662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &85771665
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1661,7 +1178,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2381,7 +1898,6 @@ GameObject:
   - component: {fileID: 208166022}
   - component: {fileID: 208166021}
   - component: {fileID: 208166020}
-  - component: {fileID: 208166019}
   m_Layer: 0
   m_Name: ArmN_marker
   m_TagString: Untagged
@@ -2404,18 +1920,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1732746305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &208166019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 208166017}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &208166020
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2480,7 +1984,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2686,7 +2190,6 @@ GameObject:
   - component: {fileID: 262529284}
   - component: {fileID: 262529283}
   - component: {fileID: 262529282}
-  - component: {fileID: 262529281}
   m_Layer: 0
   m_Name: ArmE
   m_TagString: Untagged
@@ -2709,18 +2212,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 47893191}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &262529281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 262529279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &262529282
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2785,7 +2276,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2963,7 +2454,6 @@ GameObject:
   - component: {fileID: 271964570}
   - component: {fileID: 271964569}
   - component: {fileID: 271964568}
-  - component: {fileID: 271964567}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -2986,18 +2476,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &271964567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 271964565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &271964568
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3062,7 +2540,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -3088,7 +2566,6 @@ GameObject:
   - component: {fileID: 294084977}
   - component: {fileID: 294084976}
   - component: {fileID: 294084975}
-  - component: {fileID: 294084974}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -3111,18 +2588,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &294084974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 294084972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &294084975
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3187,7 +2652,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -3346,7 +2811,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 315863377}
-  - component: {fileID: 315863378}
   m_Layer: 0
   m_Name: FillIris
   m_TagString: Untagged
@@ -3371,24 +2835,6 @@ Transform:
   - {fileID: 986076286}
   m_Father: {fileID: 545714256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &315863378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315863376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0fb7eaeb5dc6452ebd97a0ea68230f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyIris
-  topPipe: {fileID: 1200153984}
-  bottomPipe: {fileID: 986076286}
-  baseGap: 7
-  amp: 2.2
-  speed: 1.2
-  phase: 0
 --- !u!1001 &321911363
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3463,7 +2909,6 @@ GameObject:
   - component: {fileID: 329280646}
   - component: {fileID: 329280645}
   - component: {fileID: 329280644}
-  - component: {fileID: 329280643}
   m_Layer: 0
   m_Name: ArmS
   m_TagString: Untagged
@@ -3486,18 +2931,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 36246073}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &329280643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 329280641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &329280644
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3562,7 +2995,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -3662,7 +3095,6 @@ GameObject:
   - component: {fileID: 347198851}
   - component: {fileID: 347198850}
   - component: {fileID: 347198849}
-  - component: {fileID: 347198848}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -3685,18 +3117,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &347198848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 347198846}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &347198849
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3761,7 +3181,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -3787,7 +3207,6 @@ GameObject:
   - component: {fileID: 351975540}
   - component: {fileID: 351975539}
   - component: {fileID: 351975538}
-  - component: {fileID: 351975537}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -3810,18 +3229,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &351975537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 351975535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &351975538
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3886,7 +3293,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4244,7 +3651,6 @@ GameObject:
   - component: {fileID: 402815249}
   - component: {fileID: 402815248}
   - component: {fileID: 402815247}
-  - component: {fileID: 402815246}
   m_Layer: 0
   m_Name: ArmW
   m_TagString: Untagged
@@ -4267,18 +3673,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1076089950}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &402815246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 402815244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &402815247
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4343,7 +3737,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4369,7 +3763,6 @@ GameObject:
   - component: {fileID: 436542317}
   - component: {fileID: 436542316}
   - component: {fileID: 436542315}
-  - component: {fileID: 436542314}
   m_Layer: 0
   m_Name: ArmE
   m_TagString: Untagged
@@ -4392,18 +3785,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 535147338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &436542314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436542312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &436542315
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4468,7 +3849,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4584,7 +3965,6 @@ GameObject:
   - component: {fileID: 441034451}
   - component: {fileID: 441034450}
   - component: {fileID: 441034449}
-  - component: {fileID: 441034448}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -4607,18 +3987,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &441034448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 441034446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &441034449
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4683,7 +4051,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4709,7 +4077,6 @@ GameObject:
   - component: {fileID: 467387451}
   - component: {fileID: 467387450}
   - component: {fileID: 467387449}
-  - component: {fileID: 467387448}
   m_Layer: 0
   m_Name: ArmS
   m_TagString: Untagged
@@ -4732,18 +4099,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 47893191}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &467387448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 467387446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &467387449
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4808,7 +4163,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4831,13 +4186,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 467408109}
+  - component: {fileID: 467408110}
   m_Layer: 0
   m_Name: PlayerSpawn_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &467408109
 Transform:
   m_ObjectHideFlags: 0
@@ -4855,6 +4211,19 @@ Transform:
   - {fileID: 1778296864}
   m_Father: {fileID: 1650263162}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &467408110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467408108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78110621961dd4de9a510fb3367f7187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: baegames.LOP.Shared.Runtime::LOP.SpawnPoint
+  Order: 2
 --- !u!1 &467700317
 GameObject:
   m_ObjectHideFlags: 0
@@ -4883,8 +4252,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1506358304}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &472043060
@@ -4899,7 +4267,6 @@ GameObject:
   - component: {fileID: 472043065}
   - component: {fileID: 472043064}
   - component: {fileID: 472043063}
-  - component: {fileID: 472043062}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -4922,18 +4289,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &472043062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 472043060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &472043063
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4998,7 +4353,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5098,7 +4453,6 @@ GameObject:
   - component: {fileID: 473140257}
   - component: {fileID: 473140256}
   - component: {fileID: 473140255}
-  - component: {fileID: 473140254}
   m_Layer: 0
   m_Name: ArmS
   m_TagString: Untagged
@@ -5121,18 +4475,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1076089950}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &473140254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 473140252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &473140255
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5197,7 +4539,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5255,7 +4597,6 @@ GameObject:
   - component: {fileID: 473755118}
   - component: {fileID: 473755117}
   - component: {fileID: 473755116}
-  - component: {fileID: 473755115}
   m_Layer: 0
   m_Name: ArmS
   m_TagString: Untagged
@@ -5278,18 +4619,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1732746305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &473755115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 473755113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &473755116
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5354,7 +4683,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5380,7 +4709,6 @@ GameObject:
   - component: {fileID: 480330095}
   - component: {fileID: 480330094}
   - component: {fileID: 480330093}
-  - component: {fileID: 480330092}
   m_Layer: 0
   m_Name: ArmW
   m_TagString: Untagged
@@ -5403,18 +4731,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 47893191}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &480330092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 480330090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &480330093
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5479,7 +4795,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5505,7 +4821,6 @@ GameObject:
   - component: {fileID: 496751022}
   - component: {fileID: 496751021}
   - component: {fileID: 496751020}
-  - component: {fileID: 496751019}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -5528,18 +4843,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &496751019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 496751017}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &496751020
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5604,7 +4907,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5630,7 +4933,6 @@ GameObject:
   - component: {fileID: 499092847}
   - component: {fileID: 499092846}
   - component: {fileID: 499092845}
-  - component: {fileID: 499092844}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -5653,18 +4955,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &499092844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499092842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &499092845
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5729,7 +5019,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5845,7 +5135,6 @@ GameObject:
   - component: {fileID: 504794757}
   - component: {fileID: 504794756}
   - component: {fileID: 504794755}
-  - component: {fileID: 504794754}
   m_Layer: 0
   m_Name: FillPinchBot
   m_TagString: Untagged
@@ -5868,18 +5157,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 545714256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &504794754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 504794752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &504794755
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5944,7 +5221,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5970,7 +5247,6 @@ GameObject:
   - component: {fileID: 508903754}
   - component: {fileID: 508903753}
   - component: {fileID: 508903752}
-  - component: {fileID: 508903751}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -5993,18 +5269,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &508903751
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 508903749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &508903752
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6069,7 +5333,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6095,7 +5359,6 @@ GameObject:
   - component: {fileID: 513670603}
   - component: {fileID: 513670602}
   - component: {fileID: 513670601}
-  - component: {fileID: 513670600}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -6118,18 +5381,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &513670600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 513670598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &513670601
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6194,7 +5445,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6217,7 +5468,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 514874378}
-  - component: {fileID: 514874379}
   m_Layer: 0
   m_Name: FillWindmill
   m_TagString: Untagged
@@ -6244,19 +5494,6 @@ Transform:
   - {fileID: 34863259}
   m_Father: {fileID: 545714256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &514874379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 514874377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 563440209d2ed4bcdae31ee0b35057d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyWindmill
-  rotSpeed: -80
 --- !u!1 &518053698
 GameObject:
   m_ObjectHideFlags: 0
@@ -6449,7 +5686,6 @@ GameObject:
   - component: {fileID: 524261234}
   - component: {fileID: 524261233}
   - component: {fileID: 524261232}
-  - component: {fileID: 524261231}
   m_Layer: 0
   m_Name: ArmS
   m_TagString: Untagged
@@ -6472,18 +5708,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1520115722}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &524261231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524261229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &524261232
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6548,7 +5772,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6754,7 +5978,6 @@ GameObject:
   - component: {fileID: 533020921}
   - component: {fileID: 533020920}
   - component: {fileID: 533020919}
-  - component: {fileID: 533020918}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -6777,18 +6000,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &533020918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 533020916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &533020919
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6853,7 +6064,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6876,7 +6087,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 535147338}
-  - component: {fileID: 535147339}
   m_Layer: 0
   m_Name: Windmill
   m_TagString: Untagged
@@ -6903,19 +6113,6 @@ Transform:
   - {fileID: 1081566676}
   m_Father: {fileID: 1921465035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &535147339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 535147337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 563440209d2ed4bcdae31ee0b35057d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyWindmill
-  rotSpeed: -78
 --- !u!1 &538209561
 GameObject:
   m_ObjectHideFlags: 0
@@ -6928,7 +6125,6 @@ GameObject:
   - component: {fileID: 538209566}
   - component: {fileID: 538209565}
   - component: {fileID: 538209564}
-  - component: {fileID: 538209563}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -6951,18 +6147,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &538209563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 538209561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &538209564
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7027,7 +6211,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -7250,7 +6434,6 @@ GameObject:
   - component: {fileID: 558294529}
   - component: {fileID: 558294528}
   - component: {fileID: 558294527}
-  - component: {fileID: 558294526}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -7273,18 +6456,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &558294526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558294524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &558294527
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7349,7 +6520,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -7375,7 +6546,6 @@ GameObject:
   - component: {fileID: 564165482}
   - component: {fileID: 564165481}
   - component: {fileID: 564165480}
-  - component: {fileID: 564165479}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -7398,18 +6568,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &564165479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 564165477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &564165480
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7474,7 +6632,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -7488,54 +6646,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 564165477}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &578259177
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 578259179}
-  - component: {fileID: 578259178}
-  m_Layer: 0
-  m_Name: FlappyHUD
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &578259178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 578259177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e1590c9f005541c4819022cd5898d95, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyHUD
-  startX: -3
-  finishX: 632
-  trackWidth: 1040
-  dangerDistance: 18
---- !u!4 &578259179
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 578259177}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &603616786
 GameObject:
   m_ObjectHideFlags: 0
@@ -7583,7 +6693,6 @@ GameObject:
   - component: {fileID: 614343201}
   - component: {fileID: 614343200}
   - component: {fileID: 614343199}
-  - component: {fileID: 614343198}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -7606,18 +6715,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 986076286}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &614343198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 614343196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &614343199
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7682,7 +6779,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -7708,7 +6805,6 @@ GameObject:
   - component: {fileID: 618383406}
   - component: {fileID: 618383405}
   - component: {fileID: 618383404}
-  - component: {fileID: 618383403}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -7731,18 +6827,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1603614419}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &618383403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 618383401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &618383404
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7807,7 +6891,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -7833,7 +6917,6 @@ GameObject:
   - component: {fileID: 631140303}
   - component: {fileID: 631140302}
   - component: {fileID: 631140301}
-  - component: {fileID: 631140300}
   m_Layer: 0
   m_Name: ArmE
   m_TagString: Untagged
@@ -7856,18 +6939,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 36246073}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &631140300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 631140298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &631140301
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7932,7 +7003,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -8110,7 +7181,6 @@ GameObject:
   - component: {fileID: 646615691}
   - component: {fileID: 646615690}
   - component: {fileID: 646615689}
-  - component: {fileID: 646615688}
   m_Layer: 0
   m_Name: FillPinchTop
   m_TagString: Untagged
@@ -8133,18 +7203,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 545714256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &646615688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 646615686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &646615689
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8209,7 +7267,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -8223,187 +7281,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 646615686}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &669682442
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 669682448}
-  - component: {fileID: 669682447}
-  - component: {fileID: 669682446}
-  - component: {fileID: 669682444}
-  - component: {fileID: 669682449}
-  - component: {fileID: 669682450}
-  m_Layer: 0
-  m_Name: Pacer_Red
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!212 &669682444
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669682442}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 20
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 54b7b6eb50ed843fe957b5dfdbd8e079, type: 3}
-  m_Color: {r: 1, g: 0.45, b: 0.45, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.5058824, y: 1.5058824}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!135 &669682446
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669682442}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.4477941
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &669682447
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669682442}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!4 &669682448
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669682442}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: 1.8, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &669682449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669682442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f45dca57f6734575b690c66fa7da332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyPacer
-  forwardSpeed: 10.2
-  flapImpulse: 23
-  gravity: 70
-  maxFall: 30
-  faceY: 0
-  endX: 636
-  skill: 0.85
-  lookAhead: 3
-  scanLo: -74
-  scanHi: 28
-  ghostTime: 0.7
-  invulnTime: 0.5
-  startBoostMult: 2
---- !u!114 &669682450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669682442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8c3a53bca0146b4bd18d9ad95d1f87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyBird
-  Vy: 0
 --- !u!1 &677835116
 GameObject:
   m_ObjectHideFlags: 0
@@ -8416,7 +7293,6 @@ GameObject:
   - component: {fileID: 677835121}
   - component: {fileID: 677835120}
   - component: {fileID: 677835119}
-  - component: {fileID: 677835118}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -8439,18 +7315,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &677835118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 677835116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &677835119
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8515,7 +7379,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -8541,7 +7405,6 @@ GameObject:
   - component: {fileID: 685883319}
   - component: {fileID: 685883318}
   - component: {fileID: 685883317}
-  - component: {fileID: 685883316}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -8564,18 +7427,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &685883316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685883314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &685883317
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8640,7 +7491,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -8666,7 +7517,6 @@ GameObject:
   - component: {fileID: 690740273}
   - component: {fileID: 690740272}
   - component: {fileID: 690740271}
-  - component: {fileID: 690740270}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -8689,18 +7539,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &690740270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 690740268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &690740271
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8765,7 +7603,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -8791,7 +7629,6 @@ GameObject:
   - component: {fileID: 691958373}
   - component: {fileID: 691958372}
   - component: {fileID: 691958371}
-  - component: {fileID: 691958370}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -8814,18 +7651,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &691958370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 691958368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &691958371
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8890,7 +7715,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -8916,7 +7741,6 @@ GameObject:
   - component: {fileID: 693096526}
   - component: {fileID: 693096525}
   - component: {fileID: 693096524}
-  - component: {fileID: 693096523}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -8939,18 +7763,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &693096523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 693096521}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &693096524
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9015,7 +7827,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -9115,7 +7927,6 @@ GameObject:
   - component: {fileID: 702135122}
   - component: {fileID: 702135121}
   - component: {fileID: 702135120}
-  - component: {fileID: 702135119}
   m_Layer: 0
   m_Name: ArmE
   m_TagString: Untagged
@@ -9138,18 +7949,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1732746305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &702135119
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 702135117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &702135120
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9214,7 +8013,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -9240,7 +8039,6 @@ GameObject:
   - component: {fileID: 705140543}
   - component: {fileID: 705140542}
   - component: {fileID: 705140541}
-  - component: {fileID: 705140540}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -9263,18 +8061,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &705140540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 705140538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &705140541
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9339,7 +8125,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -9365,7 +8151,6 @@ GameObject:
   - component: {fileID: 707792056}
   - component: {fileID: 707792055}
   - component: {fileID: 707792054}
-  - component: {fileID: 707792053}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -9388,18 +8173,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &707792053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 707792051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &707792054
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9464,7 +8237,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -9552,7 +8325,6 @@ GameObject:
   - component: {fileID: 720817849}
   - component: {fileID: 720817848}
   - component: {fileID: 720817847}
-  - component: {fileID: 720817846}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -9575,18 +8347,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &720817846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 720817844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &720817847
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9651,7 +8411,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -9989,7 +8749,6 @@ GameObject:
   - component: {fileID: 730505136}
   - component: {fileID: 730505135}
   - component: {fileID: 730505134}
-  - component: {fileID: 730505133}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -10012,18 +8771,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &730505133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 730505131}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &730505134
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10088,7 +8835,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -10180,7 +8927,6 @@ GameObject:
   - component: {fileID: 738120392}
   - component: {fileID: 738120391}
   - component: {fileID: 738120390}
-  - component: {fileID: 738120389}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -10203,18 +8949,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &738120389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 738120387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &738120390
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10279,7 +9013,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -10305,7 +9039,6 @@ GameObject:
   - component: {fileID: 754855412}
   - component: {fileID: 754855411}
   - component: {fileID: 754855410}
-  - component: {fileID: 754855409}
   m_Layer: 0
   m_Name: FunnelBot
   m_TagString: Untagged
@@ -10328,18 +9061,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1921465035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &754855409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 754855407}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &754855410
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10404,7 +9125,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -10430,7 +9151,6 @@ GameObject:
   - component: {fileID: 761650443}
   - component: {fileID: 761650442}
   - component: {fileID: 761650441}
-  - component: {fileID: 761650440}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -10453,18 +9173,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &761650440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 761650438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &761650441
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10529,7 +9237,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -10781,7 +9489,6 @@ GameObject:
   - component: {fileID: 800049397}
   - component: {fileID: 800049396}
   - component: {fileID: 800049395}
-  - component: {fileID: 800049394}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -10804,18 +9511,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &800049394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 800049392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &800049395
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10880,7 +9575,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -10906,7 +9601,6 @@ GameObject:
   - component: {fileID: 819835419}
   - component: {fileID: 819835418}
   - component: {fileID: 819835417}
-  - component: {fileID: 819835416}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -10929,18 +9623,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &819835416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 819835414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &819835417
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11005,7 +9687,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -11261,7 +9943,6 @@ GameObject:
   - component: {fileID: 879629339}
   - component: {fileID: 879629338}
   - component: {fileID: 879629337}
-  - component: {fileID: 879629336}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -11284,18 +9965,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &879629336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 879629334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &879629337
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11360,7 +10029,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -11476,7 +10145,6 @@ GameObject:
   - component: {fileID: 902075794}
   - component: {fileID: 902075793}
   - component: {fileID: 902075792}
-  - component: {fileID: 902075791}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -11499,18 +10167,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &902075791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 902075789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &902075792
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11575,7 +10231,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -11601,7 +10257,6 @@ GameObject:
   - component: {fileID: 903557343}
   - component: {fileID: 903557342}
   - component: {fileID: 903557341}
-  - component: {fileID: 903557340}
   m_Layer: 0
   m_Name: ArmN_marker
   m_TagString: Untagged
@@ -11624,18 +10279,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1520115722}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &903557340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 903557338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &903557341
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11700,7 +10343,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -11726,7 +10369,6 @@ GameObject:
   - component: {fileID: 910637738}
   - component: {fileID: 910637737}
   - component: {fileID: 910637736}
-  - component: {fileID: 910637735}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -11749,18 +10391,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &910637735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 910637733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &910637736
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11825,7 +10455,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -12003,7 +10633,6 @@ GameObject:
   - component: {fileID: 941235398}
   - component: {fileID: 941235397}
   - component: {fileID: 941235396}
-  - component: {fileID: 941235395}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -12026,18 +10655,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &941235395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 941235393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &941235396
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12102,7 +10719,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -12354,7 +10971,6 @@ GameObject:
   - component: {fileID: 952623117}
   - component: {fileID: 952623116}
   - component: {fileID: 952623115}
-  - component: {fileID: 952623114}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -12377,18 +10993,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &952623114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 952623112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &952623115
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12453,7 +11057,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -12479,7 +11083,6 @@ GameObject:
   - component: {fileID: 973612996}
   - component: {fileID: 973612995}
   - component: {fileID: 973612994}
-  - component: {fileID: 973612993}
   m_Layer: 0
   m_Name: PinchTop
   m_TagString: Untagged
@@ -12502,18 +11105,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1921465035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &973612993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 973612991}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &973612994
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12578,7 +11169,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -12922,7 +11513,6 @@ GameObject:
   - component: {fileID: 1001639165}
   - component: {fileID: 1001639164}
   - component: {fileID: 1001639163}
-  - component: {fileID: 1001639162}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -12945,18 +11535,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1001639162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1001639160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1001639163
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13021,7 +11599,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -13047,7 +11625,6 @@ GameObject:
   - component: {fileID: 1011647344}
   - component: {fileID: 1011647343}
   - component: {fileID: 1011647342}
-  - component: {fileID: 1011647341}
   m_Layer: 0
   m_Name: FillPinchTop
   m_TagString: Untagged
@@ -13070,18 +11647,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 545714256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1011647341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1011647339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1011647342
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13146,7 +11711,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -13169,7 +11734,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1020764600}
-  - component: {fileID: 1020764601}
   m_Layer: 0
   m_Name: ---Course---
   m_TagString: Untagged
@@ -13192,85 +11756,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1020764601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1020764599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64d3a942a78e54b9783e047db00e1c56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyCourseGenerator
-  courseRoot: {fileID: 0}
-  startX: 6
-  wallSpacing: 12
-  seed: 12345
-  enableElevation: 1
-  elevationAmp: -32
-  elevationWavelength: 336
-  sharpElevation: 0
-  localGapHalf: 2
-  pipeExtent: 26
-  groundDrop: 9
-  ceilRise: 9
-  wideGapSize: 6
-  tightGapSize: 5
-  multiSlotCount: 2
-  slotGapSize: 6
-  slotSpan: 14
-  flapImpulse: 23
-  forwardSpeed: 11
-  reachFactor: 0.15
-  pipeMaterial: {fileID: 2100000, guid: ea5236f49d5fa4888874f5159d4015a6, type: 2}
-  pipeWidth: 1.6
-  pipeDepth: 2
-  lipExtra: 0.4
-  lipHeight: 0.5
-  movingPipeGap: 8
-  movingPipeAmp: 1.5
-  movingPipeSpeed: 1.2
-  donutRadius: 5
-  donutRotSpeed: 25
-  donutGapCount: 2
-  donutStackCount: 1
-  donutStackOffset: 6.5
-  irisBaseGap: 7
-  irisAmp: 1.5
-  irisSpeed: 1
-  sections:
-  - type: 2
-    count: 2
-    dynamicKind: 0
-  - type: 3
-    count: 1
-    dynamicKind: 2
-  - type: 2
-    count: 2
-    dynamicKind: 0
-  - type: 3
-    count: 1
-    dynamicKind: 2
-  - type: 2
-    count: 2
-    dynamicKind: 0
-  - type: 3
-    count: 1
-    dynamicKind: 2
-  - type: 2
-    count: 2
-    dynamicKind: 0
-  - type: 3
-    count: 1
-    dynamicKind: 2
-  - type: 2
-    count: 2
-    dynamicKind: 0
-  - type: 3
-    count: 1
-    dynamicKind: 2
 --- !u!1001 &1032177780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13345,58 +11830,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3122502074616249959, guid: b84859562c42f4e1fafa4e3639304625, type: 3}
   m_PrefabInstance: {fileID: 1032177780}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1038781845
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1038781847}
-  - component: {fileID: 1038781846}
-  m_Layer: 0
-  m_Name: RaceManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1038781846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1038781845}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e7d2345663ce4f3b987ad68f916f6cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyRaceManager
-  playerBird: {fileID: 1557638672516163121}
-  courseRoot: {fileID: 1020764600}
-  aiCount: 3
-  aiColors:
-  - {r: 1, g: 0.4, b: 0.4, a: 1}
-  - {r: 0.4, g: 0.6, b: 1, a: 1}
-  - {r: 0.7, g: 0.4, b: 1, a: 1}
-  - {r: 1, g: 0.7, b: 0.3, a: 1}
---- !u!4 &1038781847
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1038781845}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1041860909
 GameObject:
   m_ObjectHideFlags: 0
@@ -13406,13 +11839,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1041860910}
+  - component: {fileID: 1041860911}
   m_Layer: 0
   m_Name: PlayerSpawn_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1041860910
 Transform:
   m_ObjectHideFlags: 0
@@ -13430,6 +11864,19 @@ Transform:
   - {fileID: 1766847773}
   m_Father: {fileID: 1650263162}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1041860911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041860909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78110621961dd4de9a510fb3367f7187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: baegames.LOP.Shared.Runtime::LOP.SpawnPoint
+  Order: 4
 --- !u!1 &1052314060
 GameObject:
   m_ObjectHideFlags: 0
@@ -13800,7 +12247,6 @@ GameObject:
   - component: {fileID: 1067912017}
   - component: {fileID: 1067912016}
   - component: {fileID: 1067912015}
-  - component: {fileID: 1067912014}
   m_Layer: 0
   m_Name: ArmW
   m_TagString: Untagged
@@ -13823,18 +12269,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 514874378}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1067912014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1067912012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1067912015
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13899,7 +12333,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -13925,7 +12359,6 @@ GameObject:
   - component: {fileID: 1067993022}
   - component: {fileID: 1067993021}
   - component: {fileID: 1067993020}
-  - component: {fileID: 1067993019}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -13948,18 +12381,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1067993019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1067993017}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1067993020
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14024,7 +12445,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -14050,7 +12471,6 @@ GameObject:
   - component: {fileID: 1070479552}
   - component: {fileID: 1070479551}
   - component: {fileID: 1070479550}
-  - component: {fileID: 1070479549}
   m_Layer: 0
   m_Name: BoostHole
   m_TagString: Untagged
@@ -14073,20 +12493,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1070479549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1070479547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5590cd2d7a23640faae3466b41ce2f84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyBoostZone
-  mult: 2.3
-  duration: 1.6
 --- !u!23 &1070479550
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14151,7 +12557,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -14174,7 +12580,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1076089950}
-  - component: {fileID: 1076089951}
   m_Layer: 0
   m_Name: Windmill
   m_TagString: Untagged
@@ -14201,19 +12606,6 @@ Transform:
   - {fileID: 1738237604}
   m_Father: {fileID: 1921465035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1076089951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1076089949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 563440209d2ed4bcdae31ee0b35057d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyWindmill
-  rotSpeed: -98
 --- !u!1 &1081566675
 GameObject:
   m_ObjectHideFlags: 0
@@ -14226,7 +12618,6 @@ GameObject:
   - component: {fileID: 1081566680}
   - component: {fileID: 1081566679}
   - component: {fileID: 1081566678}
-  - component: {fileID: 1081566677}
   m_Layer: 0
   m_Name: ArmN_marker
   m_TagString: Untagged
@@ -14249,18 +12640,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 535147338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1081566677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1081566675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1081566678
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14325,7 +12704,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -14351,7 +12730,6 @@ GameObject:
   - component: {fileID: 1084506802}
   - component: {fileID: 1084506801}
   - component: {fileID: 1084506800}
-  - component: {fileID: 1084506799}
   m_Layer: 0
   m_Name: ArmS
   m_TagString: Untagged
@@ -14374,18 +12752,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 535147338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1084506799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1084506797}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1084506800
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14450,7 +12816,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -14476,7 +12842,6 @@ GameObject:
   - component: {fileID: 1087728617}
   - component: {fileID: 1087728616}
   - component: {fileID: 1087728615}
-  - component: {fileID: 1087728614}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -14499,18 +12864,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1087728614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1087728612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1087728615
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14575,7 +12928,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -14843,7 +13196,6 @@ GameObject:
   - component: {fileID: 1136268729}
   - component: {fileID: 1136268728}
   - component: {fileID: 1136268727}
-  - component: {fileID: 1136268726}
   m_Layer: 0
   m_Name: ArmE
   m_TagString: Untagged
@@ -14866,18 +13218,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 514874378}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1136268726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1136268724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1136268727
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14942,7 +13282,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -14968,7 +13308,6 @@ GameObject:
   - component: {fileID: 1161746618}
   - component: {fileID: 1161746617}
   - component: {fileID: 1161746616}
-  - component: {fileID: 1161746615}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -14991,18 +13330,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1161746615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161746613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1161746616
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15067,7 +13394,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -15093,7 +13420,6 @@ GameObject:
   - component: {fileID: 1170724097}
   - component: {fileID: 1170724096}
   - component: {fileID: 1170724095}
-  - component: {fileID: 1170724094}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -15116,18 +13442,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1170724094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1170724092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1170724095
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15192,7 +13506,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -15464,7 +13778,6 @@ GameObject:
   - component: {fileID: 1187626164}
   - component: {fileID: 1187626163}
   - component: {fileID: 1187626162}
-  - component: {fileID: 1187626161}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -15487,18 +13800,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1187626161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187626159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1187626162
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15563,7 +13864,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -15891,7 +14192,6 @@ GameObject:
   - component: {fileID: 1232993180}
   - component: {fileID: 1232993179}
   - component: {fileID: 1232993178}
-  - component: {fileID: 1232993177}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -15914,18 +14214,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1232993177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232993175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1232993178
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15990,7 +14278,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -16016,7 +14304,6 @@ GameObject:
   - component: {fileID: 1264949681}
   - component: {fileID: 1264949680}
   - component: {fileID: 1264949679}
-  - component: {fileID: 1264949678}
   m_Layer: 0
   m_Name: ArmW
   m_TagString: Untagged
@@ -16039,18 +14326,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 535147338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1264949678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1264949676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1264949679
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16115,7 +14390,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -16141,7 +14416,6 @@ GameObject:
   - component: {fileID: 1266006201}
   - component: {fileID: 1266006200}
   - component: {fileID: 1266006199}
-  - component: {fileID: 1266006198}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -16164,18 +14438,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1266006198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266006196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1266006199
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16240,7 +14502,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -16446,7 +14708,6 @@ GameObject:
   - component: {fileID: 1327070673}
   - component: {fileID: 1327070672}
   - component: {fileID: 1327070671}
-  - component: {fileID: 1327070670}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -16469,18 +14730,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1327070670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1327070668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1327070671
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16545,7 +14794,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -16612,7 +14861,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1337730945}
-  - component: {fileID: 1337730946}
   m_Layer: 0
   m_Name: Windmill
   m_TagString: Untagged
@@ -16639,19 +14887,6 @@ Transform:
   - {fileID: 1629989895}
   m_Father: {fileID: 1921465035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1337730946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1337730944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 563440209d2ed4bcdae31ee0b35057d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyWindmill
-  rotSpeed: -55
 --- !u!1 &1353967725
 GameObject:
   m_ObjectHideFlags: 0
@@ -16754,7 +14989,6 @@ GameObject:
   - component: {fileID: 1358926561}
   - component: {fileID: 1358926560}
   - component: {fileID: 1358926559}
-  - component: {fileID: 1358926558}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -16777,18 +15011,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1358926558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358926556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1358926559
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16853,7 +15075,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -17059,7 +15281,6 @@ GameObject:
   - component: {fileID: 1386237918}
   - component: {fileID: 1386237917}
   - component: {fileID: 1386237916}
-  - component: {fileID: 1386237915}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -17082,18 +15303,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1386237915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1386237913}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1386237916
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17158,7 +15367,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -17336,7 +15545,6 @@ GameObject:
   - component: {fileID: 1422118023}
   - component: {fileID: 1422118022}
   - component: {fileID: 1422118021}
-  - component: {fileID: 1422118020}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -17359,18 +15567,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1422118020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1422118018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1422118021
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17435,7 +15631,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -17523,7 +15719,6 @@ GameObject:
   - component: {fileID: 1431130944}
   - component: {fileID: 1431130943}
   - component: {fileID: 1431130942}
-  - component: {fileID: 1431130941}
   m_Layer: 0
   m_Name: FillPinchBot
   m_TagString: Untagged
@@ -17546,18 +15741,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 545714256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1431130941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431130939}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1431130942
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17622,7 +15805,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -17754,8 +15937,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 54246905}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1444935680
@@ -17770,7 +15952,6 @@ GameObject:
   - component: {fileID: 1444935685}
   - component: {fileID: 1444935684}
   - component: {fileID: 1444935683}
-  - component: {fileID: 1444935682}
   m_Layer: 0
   m_Name: ArmN_marker
   m_TagString: Untagged
@@ -17793,18 +15974,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 36246073}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1444935682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444935680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1444935683
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17869,7 +16038,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -17895,7 +16064,6 @@ GameObject:
   - component: {fileID: 1448604479}
   - component: {fileID: 1448604478}
   - component: {fileID: 1448604477}
-  - component: {fileID: 1448604476}
   m_Layer: 0
   m_Name: ArmE
   m_TagString: Untagged
@@ -17918,18 +16086,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1337730945}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1448604476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448604474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1448604477
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17994,7 +16150,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -18020,7 +16176,6 @@ GameObject:
   - component: {fileID: 1462707653}
   - component: {fileID: 1462707652}
   - component: {fileID: 1462707651}
-  - component: {fileID: 1462707650}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -18043,18 +16198,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1462707650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462707648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1462707651
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18119,7 +16262,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -18145,7 +16288,6 @@ GameObject:
   - component: {fileID: 1465101180}
   - component: {fileID: 1465101179}
   - component: {fileID: 1465101178}
-  - component: {fileID: 1465101177}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -18168,18 +16310,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1465101177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1465101175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1465101178
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18244,7 +16374,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -18443,58 +16573,6 @@ Transform:
   - {fileID: 1202828831}
   m_Father: {fileID: 603616787}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1485645475
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1485645477}
-  - component: {fileID: 1485645476}
-  m_Layer: 0
-  m_Name: Chaser
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1485645476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1485645475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ade64da3fed614575a7ad5d5c7de1a05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyChaser
-  initialSpeed: 7
-  acceleration: 0.05
-  maxSpeed: 9
-  startX: -60
-  screenPadding: 4
-  fallbackScreenWidth: 57
-  wallHeight: 300
-  wallColor: {r: 0.85, g: 0.15, b: 0.15, a: 0.65}
---- !u!4 &1485645477
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1485645475}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -60, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1496537394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18651,103 +16729,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1502873467}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1506358303
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1506358304}
-  - component: {fileID: 1506358305}
-  m_Layer: 0
-  m_Name: Directional Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1506358304
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1506358303}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.40821794, y: -0.23456973, z: 0.10938166, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 467700318}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &1506358305
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1506358303}
-  m_Enabled: 1
-  serializedVersion: 12
-  m_Type: 1
-  m_Color: {r: 1, g: 0.97, b: 0.9, a: 1}
-  m_Intensity: 1.1
-  m_Range: 10
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize2D: {x: 0.5, y: 0.5}
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ForceVisible: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
-  m_LightUnit: 1
-  m_LuxAtDistance: 1
-  m_EnableSpotReflector: 1
 --- !u!1 &1520115721
 GameObject:
   m_ObjectHideFlags: 0
@@ -18757,7 +16738,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1520115722}
-  - component: {fileID: 1520115723}
   m_Layer: 0
   m_Name: FillWindmill
   m_TagString: Untagged
@@ -18784,200 +16764,6 @@ Transform:
   - {fileID: 903557339}
   m_Father: {fileID: 545714256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1520115723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1520115721}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 563440209d2ed4bcdae31ee0b35057d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyWindmill
-  rotSpeed: -105
---- !u!1 &1520934203
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1520934209}
-  - component: {fileID: 1520934208}
-  - component: {fileID: 1520934207}
-  - component: {fileID: 1520934205}
-  - component: {fileID: 1520934204}
-  - component: {fileID: 1520934210}
-  m_Layer: 0
-  m_Name: Pacer_Yellow
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1520934204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1520934203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f45dca57f6734575b690c66fa7da332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyPacer
-  forwardSpeed: 10.6
-  flapImpulse: 23
-  gravity: 70
-  maxFall: 30
-  faceY: 0
-  endX: 636
-  skill: 0.95
-  lookAhead: 3
-  scanLo: -74
-  scanHi: 28
-  ghostTime: 0.7
-  invulnTime: 0.5
-  startBoostMult: 2
---- !u!212 &1520934205
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1520934203}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 20
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 54b7b6eb50ed843fe957b5dfdbd8e079, type: 3}
-  m_Color: {r: 1, g: 0.85, b: 0.25, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.5058824, y: 1.5058824}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!135 &1520934207
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1520934203}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.4477941
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1520934208
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1520934203}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!4 &1520934209
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1520934203}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: -1.8, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1520934210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1520934203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8c3a53bca0146b4bd18d9ad95d1f87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyBird
-  Vy: 0
 --- !u!1 &1522214138
 GameObject:
   m_ObjectHideFlags: 0
@@ -18990,7 +16776,6 @@ GameObject:
   - component: {fileID: 1522214143}
   - component: {fileID: 1522214142}
   - component: {fileID: 1522214141}
-  - component: {fileID: 1522214140}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -19013,18 +16798,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1522214140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1522214138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1522214141
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19089,7 +16862,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -19115,7 +16888,6 @@ GameObject:
   - component: {fileID: 1538465139}
   - component: {fileID: 1538465138}
   - component: {fileID: 1538465137}
-  - component: {fileID: 1538465136}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -19138,18 +16910,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1538465136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1538465134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1538465137
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19214,7 +16974,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -19330,7 +17090,6 @@ GameObject:
   - component: {fileID: 1554000773}
   - component: {fileID: 1554000772}
   - component: {fileID: 1554000771}
-  - component: {fileID: 1554000770}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -19353,18 +17112,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 473582292}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1554000770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1554000768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1554000771
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19429,7 +17176,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -19635,7 +17382,6 @@ GameObject:
   - component: {fileID: 1568019076}
   - component: {fileID: 1568019075}
   - component: {fileID: 1568019074}
-  - component: {fileID: 1568019073}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -19658,18 +17404,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1568019073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1568019071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1568019074
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19734,7 +17468,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -20030,7 +17764,6 @@ GameObject:
   - component: {fileID: 1592849014}
   - component: {fileID: 1592849013}
   - component: {fileID: 1592849012}
-  - component: {fileID: 1592849011}
   m_Layer: 0
   m_Name: ArmN_marker
   m_TagString: Untagged
@@ -20053,18 +17786,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 47893191}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1592849011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1592849009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1592849012
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20129,7 +17850,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -20187,7 +17908,6 @@ GameObject:
   - component: {fileID: 1629989899}
   - component: {fileID: 1629989898}
   - component: {fileID: 1629989897}
-  - component: {fileID: 1629989896}
   m_Layer: 0
   m_Name: ArmN_marker
   m_TagString: Untagged
@@ -20210,18 +17930,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1337730945}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1629989896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1629989894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1629989897
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20286,7 +17994,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -20312,7 +18020,6 @@ GameObject:
   - component: {fileID: 1643414351}
   - component: {fileID: 1643414350}
   - component: {fileID: 1643414349}
-  - component: {fileID: 1643414348}
   m_Layer: 0
   m_Name: ArmS
   m_TagString: Untagged
@@ -20335,18 +18042,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 514874378}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1643414348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1643414346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1643414349
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20411,7 +18106,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -20499,7 +18194,6 @@ GameObject:
   - component: {fileID: 1645444492}
   - component: {fileID: 1645444491}
   - component: {fileID: 1645444490}
-  - component: {fileID: 1645444489}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -20522,18 +18216,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1645444489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1645444487}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1645444490
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20598,7 +18280,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -20749,7 +18431,6 @@ GameObject:
   - component: {fileID: 1681615507}
   - component: {fileID: 1681615506}
   - component: {fileID: 1681615505}
-  - component: {fileID: 1681615504}
   m_Layer: 0
   m_Name: ArmW
   m_TagString: Untagged
@@ -20772,18 +18453,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1337730945}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1681615504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1681615502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1681615505
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20848,7 +18517,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -20862,70 +18531,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681615502}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1681688151
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1681688153}
-  - component: {fileID: 1681688152}
-  m_Layer: 0
-  m_Name: SimJudge
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1681688152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1681688151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee1e5bd458e064263a05bd7225f9d175, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappySimJudge
-  startX: -3
-  startY: 0
-  samplesPerTier: 80
-  simDt: 0.02
-  flapCooldown: 0.1
-  invulnTime: 0.6
-  randomSeed: 20260718
-  reactDelay:
-  - 0.14
-  - 0.06
-  - 0
-  timingJitter:
-  - 0.09
-  - 0.04
-  - 0
-  useBCPolicy: 1
-  chaserInitialSpeed: 7
-  chaserAcceleration: 0.05
-  chaserMaxSpeed: 9
-  chaserStartX: -60
---- !u!4 &1681688153
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1681688151}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1685889169
 GameObject:
   m_ObjectHideFlags: 0
@@ -20938,7 +18543,6 @@ GameObject:
   - component: {fileID: 1685889174}
   - component: {fileID: 1685889173}
   - component: {fileID: 1685889172}
-  - component: {fileID: 1685889171}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -20961,18 +18565,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1685889171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1685889169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1685889172
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21037,7 +18629,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -21243,7 +18835,6 @@ GameObject:
   - component: {fileID: 1713173647}
   - component: {fileID: 1713173646}
   - component: {fileID: 1713173645}
-  - component: {fileID: 1713173644}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -21266,18 +18857,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1713173644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1713173642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1713173645
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21342,7 +18921,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -21365,7 +18944,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1732746305}
-  - component: {fileID: 1732746306}
   m_Layer: 0
   m_Name: FillWindmill
   m_TagString: Untagged
@@ -21392,19 +18970,6 @@ Transform:
   - {fileID: 208166018}
   m_Father: {fileID: 545714256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1732746306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1732746304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 563440209d2ed4bcdae31ee0b35057d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyWindmill
-  rotSpeed: -80
 --- !u!1 &1737012212
 GameObject:
   m_ObjectHideFlags: 0
@@ -21417,7 +18982,6 @@ GameObject:
   - component: {fileID: 1737012217}
   - component: {fileID: 1737012216}
   - component: {fileID: 1737012215}
-  - component: {fileID: 1737012214}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -21440,18 +19004,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1737012214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1737012212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1737012215
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21516,7 +19068,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -21542,7 +19094,6 @@ GameObject:
   - component: {fileID: 1738237608}
   - component: {fileID: 1738237607}
   - component: {fileID: 1738237606}
-  - component: {fileID: 1738237605}
   m_Layer: 0
   m_Name: ArmN_marker
   m_TagString: Untagged
@@ -21565,18 +19116,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1076089950}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1738237605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738237603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1738237606
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21641,7 +19180,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -21847,7 +19386,6 @@ GameObject:
   - component: {fileID: 1778277780}
   - component: {fileID: 1778277779}
   - component: {fileID: 1778277778}
-  - component: {fileID: 1778277777}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -21870,18 +19408,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1778277777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1778277775}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1778277778
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21946,7 +19472,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -22316,7 +19842,6 @@ GameObject:
   - component: {fileID: 1823792135}
   - component: {fileID: 1823792134}
   - component: {fileID: 1823792133}
-  - component: {fileID: 1823792132}
   m_Layer: 0
   m_Name: CorridorTop
   m_TagString: Untagged
@@ -22339,18 +19864,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1921465035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1823792132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823792130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1823792133
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22415,7 +19928,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -22441,7 +19954,6 @@ GameObject:
   - component: {fileID: 1836850951}
   - component: {fileID: 1836850950}
   - component: {fileID: 1836850949}
-  - component: {fileID: 1836850948}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -22464,18 +19976,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1836850948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1836850946}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1836850949
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22540,7 +20040,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -22566,7 +20066,6 @@ GameObject:
   - component: {fileID: 1840516602}
   - component: {fileID: 1840516601}
   - component: {fileID: 1840516600}
-  - component: {fileID: 1840516599}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -22589,18 +20088,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1840516599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1840516597}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1840516600
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22665,7 +20152,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -22691,7 +20178,6 @@ GameObject:
   - component: {fileID: 1845782835}
   - component: {fileID: 1845782834}
   - component: {fileID: 1845782833}
-  - component: {fileID: 1845782832}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -22714,18 +20200,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1845782832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1845782830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1845782833
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22790,7 +20264,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -22906,7 +20380,6 @@ GameObject:
   - component: {fileID: 1847740521}
   - component: {fileID: 1847740520}
   - component: {fileID: 1847740519}
-  - component: {fileID: 1847740518}
   m_Layer: 0
   m_Name: ArmE
   m_TagString: Untagged
@@ -22929,18 +20402,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1520115722}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1847740518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1847740516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1847740519
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23005,7 +20466,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -23031,7 +20492,6 @@ GameObject:
   - component: {fileID: 1850204988}
   - component: {fileID: 1850204987}
   - component: {fileID: 1850204986}
-  - component: {fileID: 1850204985}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -23054,18 +20514,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1850204985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1850204983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1850204986
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23130,7 +20578,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -23156,7 +20604,6 @@ GameObject:
   - component: {fileID: 1863795723}
   - component: {fileID: 1863795722}
   - component: {fileID: 1863795721}
-  - component: {fileID: 1863795720}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -23179,18 +20626,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1863795720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1863795718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1863795721
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23255,7 +20690,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -23371,7 +20806,6 @@ GameObject:
   - component: {fileID: 1887291835}
   - component: {fileID: 1887291834}
   - component: {fileID: 1887291833}
-  - component: {fileID: 1887291832}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -23394,18 +20828,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1887291832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1887291830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1887291833
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23470,7 +20892,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -23648,7 +21070,6 @@ GameObject:
   - component: {fileID: 1904041627}
   - component: {fileID: 1904041626}
   - component: {fileID: 1904041625}
-  - component: {fileID: 1904041624}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -23671,18 +21092,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1904041624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904041622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1904041625
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23747,7 +21156,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -23773,7 +21182,6 @@ GameObject:
   - component: {fileID: 1918369963}
   - component: {fileID: 1918369962}
   - component: {fileID: 1918369961}
-  - component: {fileID: 1918369960}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -23796,18 +21204,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1918369960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1918369958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1918369961
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23872,7 +21268,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -23940,7 +21336,6 @@ GameObject:
   - component: {fileID: 1930848799}
   - component: {fileID: 1930848798}
   - component: {fileID: 1930848797}
-  - component: {fileID: 1930848796}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -23963,18 +21358,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1200153984}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1930848796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1930848794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1930848797
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24039,7 +21422,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -24218,13 +21601,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1963545351}
+  - component: {fileID: 1963545352}
   m_Layer: 0
   m_Name: PlayerSpawn_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1963545351
 Transform:
   m_ObjectHideFlags: 0
@@ -24242,6 +21626,19 @@ Transform:
   - {fileID: 1890320394}
   m_Father: {fileID: 1650263162}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1963545352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963545350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78110621961dd4de9a510fb3367f7187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: baegames.LOP.Shared.Runtime::LOP.SpawnPoint
+  Order: 1
 --- !u!1 &1979064533
 GameObject:
   m_ObjectHideFlags: 0
@@ -24254,7 +21651,6 @@ GameObject:
   - component: {fileID: 1979064538}
   - component: {fileID: 1979064537}
   - component: {fileID: 1979064536}
-  - component: {fileID: 1979064535}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -24277,18 +21673,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1979064535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1979064533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1979064536
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24353,7 +21737,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -24441,7 +21825,6 @@ GameObject:
   - component: {fileID: 1992108014}
   - component: {fileID: 1992108013}
   - component: {fileID: 1992108012}
-  - component: {fileID: 1992108011}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -24464,18 +21847,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1992108011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1992108009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &1992108012
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24540,7 +21911,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -24566,7 +21937,6 @@ GameObject:
   - component: {fileID: 2010229726}
   - component: {fileID: 2010229725}
   - component: {fileID: 2010229724}
-  - component: {fileID: 2010229723}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -24589,18 +21959,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2010229723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2010229721}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &2010229724
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24665,7 +22023,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -24781,7 +22139,6 @@ GameObject:
   - component: {fileID: 2032500828}
   - component: {fileID: 2032500827}
   - component: {fileID: 2032500826}
-  - component: {fileID: 2032500825}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -24804,18 +22161,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2032500825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2032500823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &2032500826
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24880,7 +22225,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -24906,7 +22251,6 @@ GameObject:
   - component: {fileID: 2038498772}
   - component: {fileID: 2038498771}
   - component: {fileID: 2038498770}
-  - component: {fileID: 2038498769}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -24929,18 +22273,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2038498769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2038498767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &2038498770
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25005,7 +22337,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -25031,7 +22363,6 @@ GameObject:
   - component: {fileID: 2055504182}
   - component: {fileID: 2055504181}
   - component: {fileID: 2055504180}
-  - component: {fileID: 2055504179}
   m_Layer: 0
   m_Name: ArmW
   m_TagString: Untagged
@@ -25054,18 +22385,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1520115722}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2055504179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2055504177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &2055504180
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25130,7 +22449,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -25246,7 +22565,6 @@ GameObject:
   - component: {fileID: 2064598180}
   - component: {fileID: 2064598179}
   - component: {fileID: 2064598178}
-  - component: {fileID: 2064598177}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -25269,18 +22587,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2064598177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2064598175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &2064598178
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25345,7 +22651,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -25425,53 +22731,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5974172393877860492, guid: b93988fb750e548f9a5b4cd90ff21751, type: 3}
   m_PrefabInstance: {fileID: 2075585742}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2082177444
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2082177446}
-  - component: {fileID: 2082177445}
-  m_Layer: 0
-  m_Name: FlappyRaceStart
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &2082177445
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2082177444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de12950f17daa4b2fb1d71616cf5d0d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyRaceStart
-  countStep: 0.8
-  goWindow: 0.45
-  boostDur: 0.5
---- !u!4 &2082177446
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2082177444}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2085787978
 GameObject:
   m_ObjectHideFlags: 0
@@ -25640,7 +22899,6 @@ GameObject:
   - component: {fileID: 2095426199}
   - component: {fileID: 2095426198}
   - component: {fileID: 2095426197}
-  - component: {fileID: 2095426196}
   m_Layer: 0
   m_Name: ArmE
   m_TagString: Untagged
@@ -25663,18 +22921,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1076089950}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2095426196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095426194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &2095426197
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25739,7 +22985,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -25765,7 +23011,6 @@ GameObject:
   - component: {fileID: 2104601290}
   - component: {fileID: 2104601289}
   - component: {fileID: 2104601288}
-  - component: {fileID: 2104601287}
   m_Layer: 0
   m_Name: CorridorBot
   m_TagString: Untagged
@@ -25788,18 +23033,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1921465035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2104601287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2104601285}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &2104601288
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25864,7 +23097,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -25890,7 +23123,6 @@ GameObject:
   - component: {fileID: 2120568360}
   - component: {fileID: 2120568359}
   - component: {fileID: 2120568358}
-  - component: {fileID: 2120568357}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -25913,18 +23145,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2120568357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2120568355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &2120568358
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25989,7 +23209,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -26164,13 +23384,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2131711480}
+  - component: {fileID: 2131711481}
   m_Layer: 0
   m_Name: PlayerSpawn_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2131711480
 Transform:
   m_ObjectHideFlags: 0
@@ -26188,6 +23409,19 @@ Transform:
   - {fileID: 863706131}
   m_Father: {fileID: 1650263162}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2131711481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131711479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78110621961dd4de9a510fb3367f7187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: baegames.LOP.Shared.Runtime::LOP.SpawnPoint
+  Order: 3
 --- !u!1 &2138008405
 GameObject:
   m_ObjectHideFlags: 0
@@ -26200,7 +23434,6 @@ GameObject:
   - component: {fileID: 2138008410}
   - component: {fileID: 2138008409}
   - component: {fileID: 2138008408}
-  - component: {fileID: 2138008407}
   m_Layer: 0
   m_Name: ArmW
   m_TagString: Untagged
@@ -26223,18 +23456,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1732746305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2138008407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2138008405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &2138008408
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26299,7 +23520,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -26325,7 +23546,6 @@ GameObject:
   - component: {fileID: 2144919610}
   - component: {fileID: 2144919609}
   - component: {fileID: 2144919608}
-  - component: {fileID: 2144919607}
   m_Layer: 0
   m_Name: PinchBot
   m_TagString: Untagged
@@ -26348,18 +23568,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1921465035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2144919607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2144919605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &2144919608
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26424,7 +23632,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -26450,7 +23658,6 @@ GameObject:
   - component: {fileID: 2145408787}
   - component: {fileID: 2145408786}
   - component: {fileID: 2145408785}
-  - component: {fileID: 2145408784}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -26473,18 +23680,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2145408784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2145408782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &2145408785
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26549,7 +23744,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -26575,7 +23770,6 @@ GameObject:
   - component: {fileID: 2147266998}
   - component: {fileID: 2147266997}
   - component: {fileID: 2147266996}
-  - component: {fileID: 2147266995}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -26598,18 +23792,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 998773429}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2147266995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2147266993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4edbdbad485c5492980e53e8c4f5ff43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyObstacle
 --- !u!23 &2147266996
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26674,7 +23856,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -26688,174 +23870,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2147266993}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1557638672516163121
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2221973027439836299}
-  - component: {fileID: 48544157}
-  - component: {fileID: 48544156}
-  - component: {fileID: 48544155}
-  - component: {fileID: 2221973027439836300}
-  - component: {fileID: 2221973027439836301}
-  - component: {fileID: 2221973027439836302}
-  - component: {fileID: 2221973027439836303}
-  - component: {fileID: 2221973027439836304}
-  m_Layer: 0
-  m_Name: Player
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &2221973027439836299
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557638672516163121}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: 0.6, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2221973027439836300
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557638672516163121}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 20
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 54b7b6eb50ed843fe957b5dfdbd8e079, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.5058824, y: 1.5058824}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!114 &2221973027439836301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557638672516163121}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9278049d8991040acad1467a7cf8e7d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyAutoPilot
-  courseRoot: {fileID: 1020764600}
-  startX: -3
-  startY: -3.3230772
-  flapCooldown: 0.12
-  showHud: 1
-  ghostTime: 0.8
-  invulnTime: 0.6
-  humanMode: 0
-  reactionDelay: 0.15
-  aimError: 0.8
---- !u!114 &2221973027439836302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557638672516163121}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 575e4dcd46d4c4d599b88e619dba5f5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyPlayRecorder
-  restartGrace: 0.7
-  logToFile: 0
-  showGui: 0
---- !u!114 &2221973027439836303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557638672516163121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8c3a53bca0146b4bd18d9ad95d1f87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyBird
-  Vy: 0
---- !u!114 &2221973027439836304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557638672516163121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a0ab686e77c445ff85817371a8a33aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlappyDashFx
-  trailColor: {r: 0.35, g: 0.9, b: 1, a: 0.55}
-  flashColor: {r: 0.9, g: 1, b: 1, a: 0.9}
-  interval: 0.022
-  life: 0.3
-  lineCount: 18
-  lineColor: {r: 1, g: 1, b: 1, a: 0.5}
-  shakeAmp: 0.6
-  shakeDur: 0.18
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -26865,13 +23879,4 @@ SceneRoots:
   - {fileID: 1650263162}
   - {fileID: 467700318}
   - {fileID: 1439554652}
-  - {fileID: 2221973027439836299}
-  - {fileID: 1038781847}
-  - {fileID: 1681688153}
   - {fileID: 998773429}
-  - {fileID: 1520934209}
-  - {fileID: 74984898}
-  - {fileID: 669682448}
-  - {fileID: 578259179}
-  - {fileID: 2082177446}
-  - {fileID: 1485645477}
