@@ -258,7 +258,7 @@ Transform:
   m_GameObject: {fileID: 1124022969}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.485281, y: 200, z: 8.485281}
+  m_LocalPosition: {x: -8.485281, y: 1000, z: 8.485281}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -303,7 +303,7 @@ Transform:
   m_GameObject: {fileID: 1218841967}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.485281, y: 200, z: -8.485281}
+  m_LocalPosition: {x: -8.485281, y: 1000, z: -8.485281}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -348,7 +348,7 @@ Transform:
   m_GameObject: {fileID: 1381414538}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.485281, y: 200, z: -8.485281}
+  m_LocalPosition: {x: 8.485281, y: 1000, z: -8.485281}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -367,6 +367,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: baegames.LOP.Shared.Runtime::LOP.SpawnPoint
   Order: 0
+--- !u!1 &1638282738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1638282740}
+  - component: {fileID: 1638282739}
+  m_Layer: 0
+  m_Name: FinishLine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1638282739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638282738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ca86130aade455098875e9a52394e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: baegames.LOP.Shared.Runtime::LOP.FinishLine
+--- !u!4 &1638282740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638282738}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1760208822
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,7 +437,7 @@ Transform:
   m_GameObject: {fileID: 1760208822}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.485281, y: 200, z: 8.485281}
+  m_LocalPosition: {x: 8.485281, y: 1000, z: 8.485281}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -438,7 +482,7 @@ Transform:
   m_GameObject: {fileID: 1765351221}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 200, z: 12}
+  m_LocalPosition: {x: 0, y: 1000, z: 12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -483,7 +527,7 @@ Transform:
   m_GameObject: {fileID: 1772865012}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12, y: 200, z: 0}
+  m_LocalPosition: {x: 12, y: 1000, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -528,7 +572,7 @@ Transform:
   m_GameObject: {fileID: 1774679033}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 200, z: -12}
+  m_LocalPosition: {x: 0, y: 1000, z: -12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -573,7 +617,7 @@ Transform:
   m_GameObject: {fileID: 1976357751}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12, y: 200, z: 0}
+  m_LocalPosition: {x: -12, y: 1000, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -605,3 +649,4 @@ SceneRoots:
   - {fileID: 1774679034}
   - {fileID: 1381414539}
   - {fileID: 58852285}
+  - {fileID: 1638282740}
