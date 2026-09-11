@@ -311,8 +311,8 @@ Transform:
   m_GameObject: {fileID: 34863258}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 1.6, y: 6, z: 2.5}
+  m_LocalPosition: {x: 0, y: 0.9165, z: 0}
+  m_LocalScale: {x: 1.6, y: 1.833, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 514874378}
@@ -404,6 +404,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 36246073}
+  - component: {fileID: 36246074}
   m_Layer: 0
   m_Name: FillWindmill
   m_TagString: Untagged
@@ -420,7 +421,7 @@ Transform:
   m_GameObject: {fileID: 36246072}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 350, y: -44, z: 0}
+  m_LocalPosition: {x: 350, y: -44.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -430,6 +431,20 @@ Transform:
   - {fileID: 1444935681}
   m_Father: {fileID: 545714256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &36246074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36246072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04bda810c53844227b00a956814070b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: baegames.LOP.Shared.Runtime::LOP.FlappyWindmill
+  RotSpeed: 55
+  StartAngle: 45
 --- !u!1 &43062456
 GameObject:
   m_ObjectHideFlags: 0
@@ -786,6 +801,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 47893191}
+  - component: {fileID: 47893192}
   m_Layer: 0
   m_Name: FillWindmill
   m_TagString: Untagged
@@ -812,6 +828,20 @@ Transform:
   - {fileID: 1592849010}
   m_Father: {fileID: 545714256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &47893192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47893190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04bda810c53844227b00a956814070b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: baegames.LOP.Shared.Runtime::LOP.FlappyWindmill
+  RotSpeed: 55
+  StartAngle: 0
 --- !u!1 &58806351
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,8 +960,8 @@ Transform:
   m_GameObject: {fileID: 66333605}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.5, z: 0}
-  m_LocalScale: {x: 1.4, y: 5, z: 2.5}
+  m_LocalPosition: {x: 0, y: -0.9165, z: 0}
+  m_LocalScale: {x: 1.4, y: 1.833, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1337730945}
@@ -1108,8 +1138,8 @@ Transform:
   m_GameObject: {fileID: 85771662}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.65, y: 0, z: 0}
-  m_LocalScale: {x: 3.3, y: 1.4, z: 2.5}
+  m_LocalPosition: {x: -0.9165, y: 0, z: 0}
+  m_LocalScale: {x: 1.833, y: 1.4, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 36246073}
@@ -1927,8 +1957,8 @@ Transform:
   m_GameObject: {fileID: 208166017}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.65, z: 0}
-  m_LocalScale: {x: 1.6, y: 3.3, z: 2.5}
+  m_LocalPosition: {x: 0, y: 0.9165, z: 0}
+  m_LocalScale: {x: 1.6, y: 1.833, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1732746305}
@@ -2219,8 +2249,8 @@ Transform:
   m_GameObject: {fileID: 262529279}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.65, y: 0, z: 0}
-  m_LocalScale: {x: 5.3, y: 1.4, z: 2.5}
+  m_LocalPosition: {x: 0.9165, y: 0, z: 0}
+  m_LocalScale: {x: 1.833, y: 1.4, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 47893191}
@@ -2938,8 +2968,8 @@ Transform:
   m_GameObject: {fileID: 329280641}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.65, z: 0}
-  m_LocalScale: {x: 1.4, y: 3.3, z: 2.5}
+  m_LocalPosition: {x: 0, y: -0.9165, z: 0}
+  m_LocalScale: {x: 1.4, y: 1.833, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 36246073}
@@ -3680,8 +3710,8 @@ Transform:
   m_GameObject: {fileID: 402815244}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 1.4, z: 2.5}
+  m_LocalPosition: {x: -0.9165, y: 0, z: 0}
+  m_LocalScale: {x: 1.833, y: 1.4, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1076089950}
@@ -3792,8 +3822,8 @@ Transform:
   m_GameObject: {fileID: 436542312}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.75, y: 0, z: 0}
-  m_LocalScale: {x: 5.5, y: 1.4, z: 2.5}
+  m_LocalPosition: {x: 0.9165, y: 0, z: 0}
+  m_LocalScale: {x: 1.833, y: 1.4, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 535147338}
@@ -4106,8 +4136,8 @@ Transform:
   m_GameObject: {fileID: 467387446}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.65, z: 0}
-  m_LocalScale: {x: 1.4, y: 5.3, z: 2.5}
+  m_LocalPosition: {x: 0, y: -0.9165, z: 0}
+  m_LocalScale: {x: 1.4, y: 1.833, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 47893191}
@@ -4482,8 +4512,8 @@ Transform:
   m_GameObject: {fileID: 473140252}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.5, z: 0}
-  m_LocalScale: {x: 1.4, y: 5, z: 2.5}
+  m_LocalPosition: {x: 0, y: -0.9165, z: 0}
+  m_LocalScale: {x: 1.4, y: 1.833, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1076089950}
@@ -4626,8 +4656,8 @@ Transform:
   m_GameObject: {fileID: 473755113}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.65, z: 0}
-  m_LocalScale: {x: 1.4, y: 3.3, z: 2.5}
+  m_LocalPosition: {x: 0, y: -0.9165, z: 0}
+  m_LocalScale: {x: 1.4, y: 1.833, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1732746305}
@@ -4738,8 +4768,8 @@ Transform:
   m_GameObject: {fileID: 480330090}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.65, y: 0, z: 0}
-  m_LocalScale: {x: 5.3, y: 1.4, z: 2.5}
+  m_LocalPosition: {x: -0.9165, y: 0, z: 0}
+  m_LocalScale: {x: 1.833, y: 1.4, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 47893191}
@@ -5481,6 +5511,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 514874378}
+  - component: {fileID: 514874379}
   m_Layer: 0
   m_Name: FillWindmill
   m_TagString: Untagged
@@ -5507,6 +5538,20 @@ Transform:
   - {fileID: 34863259}
   m_Father: {fileID: 545714256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &514874379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514874377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04bda810c53844227b00a956814070b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: baegames.LOP.Shared.Runtime::LOP.FlappyWindmill
+  RotSpeed: 55
+  StartAngle: 0
 --- !u!1 &518053698
 GameObject:
   m_ObjectHideFlags: 0
@@ -5715,8 +5760,8 @@ Transform:
   m_GameObject: {fileID: 524261229}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3, z: 0}
-  m_LocalScale: {x: 1.4, y: 6, z: 2.5}
+  m_LocalPosition: {x: 0, y: -0.9165, z: 0}
+  m_LocalScale: {x: 1.4, y: 1.833, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1520115722}
@@ -6100,6 +6145,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 535147338}
+  - component: {fileID: 535147339}
   m_Layer: 0
   m_Name: Windmill
   m_TagString: Untagged
@@ -6126,6 +6172,20 @@ Transform:
   - {fileID: 1081566676}
   m_Father: {fileID: 1921465035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &535147339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535147337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04bda810c53844227b00a956814070b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: baegames.LOP.Shared.Runtime::LOP.FlappyWindmill
+  RotSpeed: 55
+  StartAngle: 45
 --- !u!1 &538209561
 GameObject:
   m_ObjectHideFlags: 0
@@ -6946,8 +7006,8 @@ Transform:
   m_GameObject: {fileID: 631140298}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.65, y: 0, z: 0}
-  m_LocalScale: {x: 3.3, y: 1.4, z: 2.5}
+  m_LocalPosition: {x: 0.9165, y: 0, z: 0}
+  m_LocalScale: {x: 1.833, y: 1.4, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 36246073}
@@ -7956,8 +8016,8 @@ Transform:
   m_GameObject: {fileID: 702135117}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.65, y: 0, z: 0}
-  m_LocalScale: {x: 3.3, y: 1.4, z: 2.5}
+  m_LocalPosition: {x: 0.9165, y: 0, z: 0}
+  m_LocalScale: {x: 1.833, y: 1.4, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1732746305}
@@ -10286,8 +10346,8 @@ Transform:
   m_GameObject: {fileID: 903557338}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 1.6, y: 6, z: 2.5}
+  m_LocalPosition: {x: 0, y: 0.9165, z: 0}
+  m_LocalScale: {x: 1.6, y: 1.833, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1520115722}
@@ -12276,8 +12336,8 @@ Transform:
   m_GameObject: {fileID: 1067912012}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: 0, z: 0}
-  m_LocalScale: {x: 6, y: 1.4, z: 2.5}
+  m_LocalPosition: {x: -0.9165, y: 0, z: 0}
+  m_LocalScale: {x: 1.833, y: 1.4, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 514874378}
@@ -12500,7 +12560,7 @@ Transform:
   m_GameObject: {fileID: 1070479547}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 350, y: -45.95, z: 0}
+  m_LocalPosition: {x: 350, y: -48.95, z: 0}
   m_LocalScale: {x: 5, y: 4, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12593,6 +12653,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1076089950}
+  - component: {fileID: 1076089951}
   m_Layer: 0
   m_Name: Windmill
   m_TagString: Untagged
@@ -12619,6 +12680,20 @@ Transform:
   - {fileID: 1738237604}
   m_Father: {fileID: 1921465035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1076089951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076089949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04bda810c53844227b00a956814070b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: baegames.LOP.Shared.Runtime::LOP.FlappyWindmill
+  RotSpeed: 55
+  StartAngle: 45
 --- !u!1 &1081566675
 GameObject:
   m_ObjectHideFlags: 0
@@ -12647,8 +12722,8 @@ Transform:
   m_GameObject: {fileID: 1081566675}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.75, z: 0}
-  m_LocalScale: {x: 1.6, y: 5.5, z: 2.5}
+  m_LocalPosition: {x: 0, y: 0.9165, z: 0}
+  m_LocalScale: {x: 1.6, y: 1.833, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 535147338}
@@ -12759,8 +12834,8 @@ Transform:
   m_GameObject: {fileID: 1084506797}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.75, z: 0}
-  m_LocalScale: {x: 1.4, y: 5.5, z: 2.5}
+  m_LocalPosition: {x: 0, y: -0.9165, z: 0}
+  m_LocalScale: {x: 1.4, y: 1.833, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 535147338}
@@ -13225,8 +13300,8 @@ Transform:
   m_GameObject: {fileID: 1136268724}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: 0}
-  m_LocalScale: {x: 6, y: 1.4, z: 2.5}
+  m_LocalPosition: {x: 0.9165, y: 0, z: 0}
+  m_LocalScale: {x: 1.833, y: 1.4, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 514874378}
@@ -14333,8 +14408,8 @@ Transform:
   m_GameObject: {fileID: 1264949676}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.75, y: 0, z: 0}
-  m_LocalScale: {x: 5.5, y: 1.4, z: 2.5}
+  m_LocalPosition: {x: -0.9165, y: 0, z: 0}
+  m_LocalScale: {x: 1.833, y: 1.4, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 535147338}
@@ -14874,6 +14949,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1337730945}
+  - component: {fileID: 1337730946}
   m_Layer: 0
   m_Name: Windmill
   m_TagString: Untagged
@@ -14900,6 +14976,20 @@ Transform:
   - {fileID: 1629989895}
   m_Father: {fileID: 1921465035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1337730946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337730944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04bda810c53844227b00a956814070b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: baegames.LOP.Shared.Runtime::LOP.FlappyWindmill
+  RotSpeed: 55
+  StartAngle: 45
 --- !u!1 &1353967725
 GameObject:
   m_ObjectHideFlags: 0
@@ -15981,8 +16071,8 @@ Transform:
   m_GameObject: {fileID: 1444935680}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.65, z: 0}
-  m_LocalScale: {x: 1.6, y: 3.3, z: 2.5}
+  m_LocalPosition: {x: 0, y: 0.9165, z: 0}
+  m_LocalScale: {x: 1.6, y: 1.833, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 36246073}
@@ -16093,8 +16183,8 @@ Transform:
   m_GameObject: {fileID: 1448604474}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 1.4, z: 2.5}
+  m_LocalPosition: {x: 0.9165, y: 0, z: 0}
+  m_LocalScale: {x: 1.833, y: 1.4, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1337730945}
@@ -16751,6 +16841,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1520115722}
+  - component: {fileID: 1520115723}
   m_Layer: 0
   m_Name: FillWindmill
   m_TagString: Untagged
@@ -16777,6 +16868,20 @@ Transform:
   - {fileID: 903557339}
   m_Father: {fileID: 545714256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1520115723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520115721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04bda810c53844227b00a956814070b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: baegames.LOP.Shared.Runtime::LOP.FlappyWindmill
+  RotSpeed: 55
+  StartAngle: 0
 --- !u!1 &1522214138
 GameObject:
   m_ObjectHideFlags: 0
@@ -17793,8 +17898,8 @@ Transform:
   m_GameObject: {fileID: 1592849009}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.65, z: 0}
-  m_LocalScale: {x: 1.6, y: 5.3, z: 2.5}
+  m_LocalPosition: {x: 0, y: 0.9165, z: 0}
+  m_LocalScale: {x: 1.6, y: 1.833, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 47893191}
@@ -17937,8 +18042,8 @@ Transform:
   m_GameObject: {fileID: 1629989894}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.5, z: 0}
-  m_LocalScale: {x: 1.6, y: 5, z: 2.5}
+  m_LocalPosition: {x: 0, y: 0.9165, z: 0}
+  m_LocalScale: {x: 1.6, y: 1.833, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1337730945}
@@ -18049,8 +18154,8 @@ Transform:
   m_GameObject: {fileID: 1643414346}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3, z: 0}
-  m_LocalScale: {x: 1.4, y: 6, z: 2.5}
+  m_LocalPosition: {x: 0, y: -0.9165, z: 0}
+  m_LocalScale: {x: 1.4, y: 1.833, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 514874378}
@@ -18460,8 +18565,8 @@ Transform:
   m_GameObject: {fileID: 1681615502}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 1.4, z: 2.5}
+  m_LocalPosition: {x: -0.9165, y: 0, z: 0}
+  m_LocalScale: {x: 1.833, y: 1.4, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1337730945}
@@ -18957,6 +19062,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1732746305}
+  - component: {fileID: 1732746306}
   m_Layer: 0
   m_Name: FillWindmill
   m_TagString: Untagged
@@ -18973,7 +19079,7 @@ Transform:
   m_GameObject: {fileID: 1732746304}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 276, y: 0, z: 0}
+  m_LocalPosition: {x: 276, y: -1.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18983,6 +19089,20 @@ Transform:
   - {fileID: 208166018}
   m_Father: {fileID: 545714256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1732746306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732746304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04bda810c53844227b00a956814070b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: baegames.LOP.Shared.Runtime::LOP.FlappyWindmill
+  RotSpeed: 55
+  StartAngle: 0
 --- !u!1 &1737012212
 GameObject:
   m_ObjectHideFlags: 0
@@ -19123,8 +19243,8 @@ Transform:
   m_GameObject: {fileID: 1738237603}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.5, z: 0}
-  m_LocalScale: {x: 1.6, y: 5, z: 2.5}
+  m_LocalPosition: {x: 0, y: 0.9165, z: 0}
+  m_LocalScale: {x: 1.6, y: 1.833, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1076089950}
@@ -20409,8 +20529,8 @@ Transform:
   m_GameObject: {fileID: 1847740516}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: 0}
-  m_LocalScale: {x: 6, y: 1.4, z: 2.5}
+  m_LocalPosition: {x: 0.9165, y: 0, z: 0}
+  m_LocalScale: {x: 1.833, y: 1.4, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1520115722}
@@ -22392,8 +22512,8 @@ Transform:
   m_GameObject: {fileID: 2055504177}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: 0, z: 0}
-  m_LocalScale: {x: 6, y: 1.4, z: 2.5}
+  m_LocalPosition: {x: -0.9165, y: 0, z: 0}
+  m_LocalScale: {x: 1.833, y: 1.4, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1520115722}
@@ -22928,8 +23048,8 @@ Transform:
   m_GameObject: {fileID: 2095426194}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 1.4, z: 2.5}
+  m_LocalPosition: {x: 0.9165, y: 0, z: 0}
+  m_LocalScale: {x: 1.833, y: 1.4, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1076089950}
@@ -23463,8 +23583,8 @@ Transform:
   m_GameObject: {fileID: 2138008405}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.65, y: 0, z: 0}
-  m_LocalScale: {x: 3.3, y: 1.4, z: 2.5}
+  m_LocalPosition: {x: -0.9165, y: 0, z: 0}
+  m_LocalScale: {x: 1.833, y: 1.4, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1732746305}
