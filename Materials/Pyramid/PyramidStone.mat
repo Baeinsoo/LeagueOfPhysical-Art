@@ -35,8 +35,9 @@ Material:
     - _OutlineWidth: 1.5
     - _RimPower: 3
     - _RimStrength: 0.35
+    - _SideGrid: 4
     - _Softness: 0.04
-    - _TopGrid: 5
+    - _TopGrid: 8
     - _UseRegions: 0
     m_Colors:
     - _BaseColor: {r: 0.8509804, g: 0.7058824, b: 0.5411765, a: 1}
