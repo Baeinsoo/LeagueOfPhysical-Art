@@ -6,7 +6,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CylMill_220_Blade
+  m_Name: CylMill_330_Blade
   serializedVersion: 12
   m_SubMeshes:
   - serializedVersion: 2
