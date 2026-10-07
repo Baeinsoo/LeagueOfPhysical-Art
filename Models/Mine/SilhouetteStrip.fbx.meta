@@ -3,7 +3,12 @@ guid: efa381a17901d4965b434ed0fb97e490
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silhouette
+    second: {fileID: 2100000, guid: c06db17a251a8454f96d5a59c420fef6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

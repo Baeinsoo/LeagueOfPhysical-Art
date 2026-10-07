@@ -3,7 +3,27 @@ guid: 24cda15a865484cc3bca6c0eadd43212
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cart
+    second: {fileID: 2100000, guid: 9ae58e88724cb4532ac0db231118ee63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CartRim
+    second: {fileID: 2100000, guid: 1bb940a0fd1a54be08a0b200435eb47f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Iron
+    second: {fileID: 2100000, guid: 3094b5c77a36d40a0835da06fd4e3311, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ore
+    second: {fileID: 2100000, guid: bc6226da6163d4415acdcbc8cd8c4e5d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

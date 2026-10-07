@@ -3,7 +3,17 @@ guid: f56bf061c575642bd9211759a42eaf55
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rail
+    second: {fileID: 2100000, guid: a08f8054433f141b4ab9f833f99296da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tie
+    second: {fileID: 2100000, guid: 4a6a7740572684c73a0b04d42d312d38, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
