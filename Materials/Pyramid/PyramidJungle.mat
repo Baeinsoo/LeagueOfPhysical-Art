@@ -38,6 +38,7 @@ Material:
     - _SideGrid: 0
     - _Softness: 0.04
     - _TopGrid: 0
+    - _TopGridSpace: 0
     - _UseRegions: 0
     m_Colors:
     - _BaseColor: {r: 0.37254903, g: 0.6392157, b: 0.3529412, a: 1}

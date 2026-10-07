@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PyramidStone
+  m_Name: PyramidHazardDoor
   m_Shader: {fileID: 4800000, guid: 5c79eaf12dc2fe94ba0f95f693b12f27, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -35,13 +35,13 @@ Material:
     - _OutlineWidth: 1.5
     - _RimPower: 3
     - _RimStrength: 0.35
-    - _SideGrid: 4
+    - _SideGrid: 3
     - _Softness: 0.04
-    - _TopGrid: 8
+    - _TopGrid: 4
     - _TopGridSpace: 0
     - _UseRegions: 0
     m_Colors:
-    - _BaseColor: {r: 0.8509804, g: 0.7058824, b: 0.5411765, a: 1}
+    - _BaseColor: {r: 0.8509804, g: 0.5411765, b: 0.16862746, a: 1}
     - _BottomColor: {r: 0.22999996, g: 0.19999996, b: 0.30999997, a: 1}
     - _HairColor: {r: 0.28999996, g: 0.19999996, b: 0.12999997, a: 1}
     - _OutlineColor: {r: 0.24999997, g: 0.19999996, b: 0.29999998, a: 1}

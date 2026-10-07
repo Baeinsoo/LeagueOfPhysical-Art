@@ -37,7 +37,8 @@ Material:
     - _RimStrength: 0.35
     - _SideGrid: 3
     - _Softness: 0.04
-    - _TopGrid: 0
+    - _TopGrid: 4
+    - _TopGridSpace: 1
     - _UseRegions: 0
     m_Colors:
     - _BaseColor: {r: 0.78431374, g: 0.33333334, b: 0.23921569, a: 1}
