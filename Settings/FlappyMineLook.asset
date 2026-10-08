@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af95ee1ff43fe472d9facfc358395899, type: 3}
+  m_Name: FlappyMineLook
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::LOP.EditorTools.FlappyMineLook
+  plankColor: {r: 0.78431374, g: 0.5411765, b: 0.32156864, a: 1}
+  ironBandColor: {r: 0.8509804, g: 0.78039217, b: 0.6431373, a: 1}
+  ironStrapColor: {r: 0.35686275, g: 0.2901961, b: 0.24313726, a: 1}
+  trestleColor: {r: 0.7254902, g: 0.49411765, b: 0.28235295, a: 1}
+  rockColor: {r: 0.47843137, g: 0.3372549, b: 0.27450982, a: 1}
+  rockBandColor: {r: 0.8862745, g: 0.7058824, b: 0.4862745, a: 1}
+  caveSilhouette1Color: {r: 0.16862746, g: 0.105882354, b: 0.078431375, a: 1}
+  caveSilhouette2Color: {r: 0.22745098, g: 0.14117648, b: 0.1882353, a: 1}
+  skySunsetTopColor: {r: 0.9647059, g: 0.69803923, b: 0.47843137, a: 1}
+  skySunsetBottomColor: {r: 0.8784314, g: 0.5411765, b: 0.38431373, a: 1}
+  canyonSilhouette1Color: {r: 0.7882353, g: 0.47058824, b: 0.36862746, a: 1}
+  canyonSilhouette2Color: {r: 0.65882355, g: 0.37254903, b: 0.30588236, a: 1}
+  lanternColor: {r: 1, g: 0.8117647, b: 0.45882353, a: 1}
+  hazeCaveColor: {r: 0.10980392, g: 0.07058824, b: 0.05490196, a: 1}
+  hazeOutsideColor: {r: 0.9490196, g: 0.65882355, b: 0.47058824, a: 1}
+  hazeAlpha: 0.4
+  hazeCaveAlpha: 0.55
+  farHazeOutsideAlpha: 0.15
+  farHazeCaveAlpha: 0.65
+  grainStrength: 1
+  shadowColor: {r: 0.62, g: 0.64, b: 0.86, a: 1}
+  frameSpacing: 13
+  ladderChance: 0.35
+  lanternSpacing: 16
+  cartCount: 2
+  farScale: 0.75
+  midScale: 0.8
