@@ -39,3 +39,14 @@ MonoBehaviour:
   cartCount: 2
   farScale: 0.75
   midScale: 0.8
+  strataColors:
+  - {r: 0.47843137, g: 0.3372549, b: 0.27450982, a: 1}
+  - {r: 0.41568628, g: 0.28235295, b: 0.21960784, a: 1}
+  - {r: 0.5411765, g: 0.39215687, b: 0.30588236, a: 1}
+  - {r: 0.36862746, g: 0.2509804, b: 0.20392157, a: 1}
+  shaftTimberSpacing: 0.45
+  cagePositionRatio: 0.3
+  lanternsPerString: 4
+  boltGlow: 1.2
+  padGlow: 0.8
+  signColor: {r: 0.47843137, g: 0.30588236, b: 0.1882353, a: 1}

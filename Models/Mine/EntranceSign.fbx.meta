@@ -3,7 +3,22 @@ guid: fffe60cacfb884b93bbf1f0b82735942
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Iron
+    second: {fileID: 2100000, guid: 3094b5c77a36d40a0835da06fd4e3311, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SignInlay
+    second: {fileID: 2100000, guid: 784f971c2b5d74a039db84e10c39c6dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SignWood
+    second: {fileID: 2100000, guid: 5618a71c26a4842cfbfef834ffe50c2f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

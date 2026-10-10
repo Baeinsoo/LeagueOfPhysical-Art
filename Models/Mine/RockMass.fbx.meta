@@ -3,7 +3,12 @@ guid: 164e45d0b50dc477796266821e295b66
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Strata
+    second: {fileID: 2100000, guid: 963698e2916a446cc9ae05b354057b6f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

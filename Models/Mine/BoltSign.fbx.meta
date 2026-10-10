@@ -3,7 +3,27 @@ guid: 442c51265e4a74af390ce8b0009366a9
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BoltGlow
+    second: {fileID: 2100000, guid: 5aa56f221440f4ecd90a33eb435a6dcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BoltRim
+    second: {fileID: 2100000, guid: 3c4fdb12fdbaa42f8b2d460169469ab3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Iron
+    second: {fileID: 2100000, guid: 3094b5c77a36d40a0835da06fd4e3311, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SignWood
+    second: {fileID: 2100000, guid: 5618a71c26a4842cfbfef834ffe50c2f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

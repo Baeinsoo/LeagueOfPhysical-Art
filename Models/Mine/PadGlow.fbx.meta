@@ -3,7 +3,17 @@ guid: 4c4fe53a00a84402a9a5add9b83d0de9
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PadFrame
+    second: {fileID: 2100000, guid: 50c0a27eac7d648bd94414b2bd89c2cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PadGlow
+    second: {fileID: 2100000, guid: dfc724a8fa30b495ba98f67c42194325, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
