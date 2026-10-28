@@ -401721,7 +401721,7 @@ MonoBehaviour:
   MoteReach: 0.5
   DiveCharge: 1
   DiveMinFallRatio: 0.75
-  DiveRate: 0.55
+  DiveRate: 0.4
   StunLoss: 0.3
 --- !u!114 &998773431
 MonoBehaviour:
