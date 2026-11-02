@@ -211336,7 +211336,7 @@ MonoBehaviour:
   Drop: 15.76
   Size: 1.2
   HiddenRise: 5.6
-  Phase: 450
+  Phase: 108
   Rock: {fileID: 659791159}
 --- !u!1 &503226152
 GameObject:
@@ -228339,7 +228339,7 @@ MonoBehaviour:
   Drop: 15.76
   Size: 1.2
   HiddenRise: 5.6
-  Phase: 90
+  Phase: 288
   Rock: {fileID: 293159018}
 --- !u!43 &550976671
 Mesh:
@@ -586171,7 +586171,7 @@ MonoBehaviour:
   Drop: 15.76
   Size: 1.2
   HiddenRise: 5.6
-  Phase: 360
+  Phase: 198
   Rock: {fileID: 997700175}
 --- !u!1001 &1475075042
 PrefabInstance:
@@ -587804,7 +587804,7 @@ MonoBehaviour:
   Drop: 15.76
   Size: 1.2
   HiddenRise: 5.6
-  Phase: 540
+  Phase: 216
   Rock: {fileID: 922002744}
 --- !u!1001 &1479758264
 PrefabInstance:
@@ -743900,7 +743900,7 @@ MonoBehaviour:
   Drop: 15.76
   Size: 1.2
   HiddenRise: 5.6
-  Phase: 270
+  Phase: 90
   Rock: {fileID: 1954252852}
 --- !u!1001 &1866741145
 PrefabInstance:
